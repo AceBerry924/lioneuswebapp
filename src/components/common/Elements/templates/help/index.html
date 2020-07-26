@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Lioneus | Help</title>
+	<link rel="icon" type="image/png" sizes="32x32" href="https://www.lioneus.com/favicon-32x32.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+	<link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<body>
+
+	<section class="section_help_1">
+		<div class="lio_wrapper">
+			<div class="shelp_content align-items-center justify-content-center ">
+				<div class="shelp_logo">
+					<img src="../assets/images/lionheartfull.jpg" alt="">
+					<h3>How can we help you?</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="section_help_2_qa">
+		<div class="lio_wrapper">
+			<div class="accordion_parent">
+				<button class="accordion">What is Selling on Lioneus?</button>
+				<div class="panel">
+					<p>Selling on Lioneus is a platform that enables both individuals and businesses to sell their
+						products to Lioneus customers. Signing up will enable you to sell on our Canadian, U.S., and
+						Mexican marketplaces. </p>
+				</div>
+
+				<button class="accordion">Why should I sell on Lioneus?</button>
+				<div class="panel">
+					<p>There are many reasons to sell on Lioneus—from the hundreds of Lioneus customers who can see your
+						products to the ability to start selling fast without the need to create a new standalone
+						website.</p>
+				</div>
+
+				<button class="accordion">What products can I sell on Lioneus?</button>
+				<div class="panel">
+					<p>
+						You can sell in a wide range of categories.</p>
+				</div>
+				<button class="accordion">Are there products that I cannot sell on Lioneus?</button>
+				<div class="panel">
+					<p> Some products are prohibited or restricted based on a variety of reasons including, but not
+						limited to, safety, health, and government restrictions. For more information about the kinds of
+						products that cannot be sold on Lioneus.com, see <a
+							href="https://www.lioneus.com/terms">Prohibited Content and Restricted Products.</a>. </p>
+				</div>
+
+				<button class="accordion">How can I sell on the Canadian, U.S., and Mexican marketplaces?</button>
+				<div class="panel">
+					<p>When you sign up as a Business or Enterprise subscription you will have access to sell on our
+						Canadian, U.S., and Mexican marketplaces through a North America Unified Account. This will
+						enable you more easily to share product listing information and manage your inventory
+						consistently across all three marketplaces. For all per-item transaction fees, sellers will pay
+						the fees applicable to the marketplace in which the item was sold. If you're a Business or
+						Enterprise seller, you will only be charged one monthly subscription fee for selling in North
+						America. If you are a new seller registering to sell in Canada, the U.S., or Mexico, you can be
+						paid directly in your local bank account in the local currency, provided you have a bank account
+						in a country/region supported by Lioneus.</p>
+				</div>
+
+				<button class="accordion">When do I start getting charged the monthly subscription fee?</button>
+				<div class="panel">
+					<p>
+						The monthly subscription fee applies to Business or Enterprise selling accounts only, and your
+						subscription begins as soon as you complete the registration process. Your first monthly
+						subscription fee will be charged at that time unless otherwise stated in any promotional
+						offers.</p>
+				</div>
+				<button class="accordion">How do I get paid?</button>
+				<div class="panel">
+					<p>Lioneus deposits payment into your bank account at regular intervals and notifies you that your
+						payment has been sent. Disbursements can be made in Canadian dollars (CDN) to your Canadian bank
+						account or in U.S. dollars (USD) to your U.S. bank account. For a settlement to take place, you
+						must:
+						<ul>
+							<li>Have entered valid bank account information for your seller account.
+							</li>
+						</ul>
+					</p>
+				</div>
+
+				<button class="accordion">Can customers leave feedback and why is customer feedback important?</button>
+				<div class="panel">
+					<p>Yes, customers can leave feedback about the products they purchase and their experience with
+						sellers. As a seller, maintaining a high feedback rating is a critical factor for success on
+						Lioneus. It's the best way for shoppers to identify you as a trustworthy seller. Your rating
+						appears on the Offer Listing Page and is one of the first things that customers see. Customers
+						are more likely to purchase products from sellers with higher ratings.</p>
+				</div>
+
+				<button class="accordion">Fees</button>
+				<div class="panel">
+					<p>
+						Lioneus fee is structured so that you can focus on what you do
+						best. We only charge payment processing fees which are 2.9% + $0.30 per successful card charge.
+						For more information about the fee —
+						<a href="mailto:info@lioneus.com"> Contact Us.</a></p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+			acc[i].addEventListener("click", function () {
+				this.classList.toggle("active");
+				var panel = this.nextElementSibling;
+				if (panel.style.maxHeight) {
+					panel.style.maxHeight = null;
+				} else {
+					panel.style.maxHeight = panel.scrollHeight + "px";
+				}
+			});
+		}
+	</script>
+</body>
+
+</html>

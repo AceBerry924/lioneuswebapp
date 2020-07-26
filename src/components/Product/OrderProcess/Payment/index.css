@@ -1,0 +1,10 @@
+.StripeElement--empty,
+.StripeElement--complete,
+.StripeElement--focus,
+.StripeElement--invalid{
+    width: 100%;
+}
+
+.StripeElement--invalid{
+    color: red;
+}

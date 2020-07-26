@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Lioneus | Add Product</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap"
+		rel="stylesheet">
+
+
+	<link rel="stylesheet" href="css/styles.css?v=3">
+</head>
+
+<body>
+
+	<div class="ub_form">
+
+		<div class="ub_form_logo">
+			<a href="/"><img src="images/logo1.df4a95c1.png" alt=""></a>
+			<h2> Add Product</h2>
+		</div>
+
+		<div class="form_title">
+			<h3>Product information</h3>
+		</div>
+
+
+		<div class="wrap_input_div wrap_input_main">
+			<div class="wrap_input">
+				<label for="pro_name" class="">Product name</label>
+				<!-- <input id="pro_name" type="text" class="riseInput input-control" onkeydown="countChar(this)"> -->
+				<input id="pro_name" type="text" class="riseInput input-control" maxlength="65">
+			</div>
+			<p class="counter_textarea_product_disc"><span id="charNum">65</span> character(s) left</p>
+		</div>
+		<div class="wrap_select_div wrap_input_main">
+			<div class="wrap_select">
+
+				<select class="vodiapicker2 input-control">
+					<option value="" class="test">Apps & Games</option>
+					<option value="" class="test">Automotive</option>
+					<option value="" class="test">Baby</option>
+					<option value="" class="test">Beauty</option>
+					<option value="" class="test">Books</option>
+					<option value="" class="test">Bags</option>
+					<option value="" class="test">Clothing</option>
+					<option value="" class="test">Electronics</option>
+					<option value="" class="test">Handmade</option>
+					<option value="" class="test">Home</option>
+					<option value="" class="test">Instruments</option>
+					<option value="" class="test">Jewerly</option>
+					<option value="" class="test">Office</option>
+					<option value="" class="test">Pet supplies</option>
+					<option value="" class="test">Shoes</option>
+					<option value="" class="test">Sports</option>
+					<option value="" class="test">Tools</option>
+					<option value="" class="test">Toys</option>
+					<option value="" class="test">Video games</option>
+					<option value="" class="test">Pet supplies</option>
+					<option value="" class="test">Watches</option>
+				</select>
+
+				<div class="lang-select">
+					<button class="btn-select2 input-control no_thumb" value=""></button>
+					<div class="bbb">
+						<ul id="aaa" class="no_thumb"></ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wrap_input_div wrap_input_main">
+			<div class="wrap_input">
+				<label for="pro_price" class="">Product price</label>
+				<input id="pro_price" type="text" class="riseInput input-control">
+			</div>
+		</div>
+
+
+		<div class="wrap_input_div wrap_input_main">
+			<div class="wrap_input">
+				<label for="pro_sn" class="">Product serial number</label>
+				<input id="pro_sn" type="text" class="riseInput input-control">
+			</div>
+		</div>
+
+
+		<div class="wrap_select_div wrap_input_main">
+			<div class="wrap_select">
+
+				<select class="vodiapicker3 input-control">
+					<option value="fedex" class="test">Brand new</option>
+					<option value="ups">Like new</option>
+					<option value="fedex" class="test">Very good</option>
+					<option value="ups">Good</option>
+					<option value="fedex" class="test">Acceptable</option>
+				</select>
+
+				<div class="lang-select">
+					<button class="btn-select3 input-control no_thumb" value=""></button>
+					<div class="bbbb">
+						<ul id="aaaa" class="no_thumb"></ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="wrap_input_main wrap_inpput_type_cr">
+			<label for="" class="form_label">Product warranty</label>
+
+			<label class="label">
+				<input type="radio" class="option-input checkbox" name="productwarranty">
+				<span>Yes</span>
+			</label>
+			<label class="label">
+				<input type="radio" class="option-input checkbox" name="productwarranty">
+				<span>No</span>
+			</label>
+		</div>
+
+
+
+		<div class="wrap_input_div wrap_input_main wrap_textarea_text">
+			<div class="wrap_input">
+				<label for="pro_disc" class="">Product description</label>
+				<textarea id="pro_disc" type="text" rows="5" class="riseInput input-control"></textarea>
+
+			</div>
+		</div>
+
+
+
+		<div class="form_title">
+			<h3>Delivery</h3>
+		</div>
+		<div class="wrap_input_main wrap_inpput_type_cr">
+
+			<label class="label">
+				<input type="checkbox" class="option-input freedeliverycheckbox checkbox" name="freedelivery">
+				<span class="freedel">Free delivery</span>
+			</label>
+		</div>
+
+
+
+
+		<div class="wrap_select_div wrap_input_main">
+
+			<div class="wrap_input_tooltip">
+
+				<div class="wrap_input_tooltip_left">
+					<div class="wrap_select">
+
+
+						<select class="vodiapicker input-control">
+							<option value="fedex" class="test" data-thumbnail="images/125_Fedex_logo_logos-512.png">
+								Fedex</option>
+							<option value="ups" data-thumbnail="images/unnamed.png">UPS</option>
+
+							<option value="canadapost" class="test" data-thumbnail="images/Canada_Post_logo.png">
+								Canada Post</option>
+							<option value="purolator" class="test" data-thumbnail="images/Purolator-Logo-BIG-trans.png">
+								Purolator</option>
+							<option value="usps" data-thumbnail="images/uspus2_resize_md.jpeg">USPS</option>
+						</select>
+
+						<div class="lang-select">
+							<button class="btn-select input-control" value=""></button>
+							<div class="b">
+								<ul id="a"></ul>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+				<div class="wrap_input_tooltip_right">
+
+					<div class="wrap_input_div wrap_input_main mb-0 free_delivery_condition">
+						<div class="wrap_input">
+							<label for="pro_career_price" class="">Price</label>
+							<input id="pro_career_price" type="text" class="riseInput input-control">
+						</div>
+					</div>
+
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="wrap_select_div wrap_input_main">
+			<div class="wrap_select">
+				<!-- <label for="" class="label">Handling time</label> -->
+				<select class="vodiapicker1 input-control">
+					<option value="fedex" class="test">Same business day</option>
+					<option value="ups">1 business day</option>
+					<option value="fedex" class="test">2 business days</option>
+					<option value="ups">3 business days</option>
+					<option value="fedex" class="test">4 business days</option>
+					<option value="ups">5 business days</option>
+					<option value="fedex" class="test">10 business days</option>
+					<option value="ups">15 business days</option>
+					<option value="fedex" class="test">20 business days</option>
+					<option value="ups">30 business days</option>
+				</select>
+
+				<div class="lang-select">
+					<button class="btn-select1 input-control no_thumb" value=""></button>
+					<div class="bb">
+						<ul id="aa" class="no_thumb"></ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="form_title product_title_last">
+			<h3>Product location</h3>
+		</div>
+		<div class="product_location_p">
+			<p>City, Region, Country, Postal Code</p>
+		</div>
+	</div>
+
+
+	</div>
+
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<script>
+		$('.riseInput').on('focusin', function () {
+			$(this).parent().find('label').addClass('active_label');
+			$(this).addClass("active_input_border");
+		});
+		$('.riseInput').on('focusout', function () {
+			if (!this.value) {
+				$(this).parent().find('label').removeClass('active_label');
+				$(this).removeClass("active_input_border");
+			}
+		});
+
+		$("#pro_name").keyup(function (event) {
+			var value = $("#pro_name").val();
+			var value_length = value.length;
+			$('#charNum').text(65 - value_length);
+		})
+
+		function countChar(val) {
+
+			// var len = val.value.length;
+			// if (len >= 65) {
+			// 	val.value = val.value.substring(0, 64);
+			// } else {
+			// 	$('#charNum').text(64 - len);
+			// }
+		};
+
+		$(".freedeliverycheckbox").click(function () {
+			if ($('.freedeliverycheckbox').is(':checked')) {
+				$(".free_delivery_condition").fadeOut();
+			} else {
+				$(".free_delivery_condition").fadeIn();
+			}
+		})
+
+
+
+
+		var langArray = [];
+		$('.vodiapicker option').each(function () {
+			var img = $(this).attr("data-thumbnail");
+			var text = this.innerText;
+			var value = $(this).val();
+			var item = '<li><img src="' + img + '" alt="" value="' + value + '"/><span>' + text + '</span></li>';
+			langArray.push(item);
+		})
+
+		$('#a').html(langArray);
+
+		//Set the button value to the first el of the array
+		$('.btn-select').html(langArray[0]);
+		$('.btn-select').attr('value', 'fedex');
+
+		//change button stuff on click
+		$('#a li').click(function () {
+			var img = $(this).find('img').attr("src");
+			var value = $(this).find('img').attr('value');
+			var text = this.innerText;
+			var item = '<li><img src="' + img + '" alt="" /><span>' + text + '</span></li>';
+			$('.btn-select').html(item);
+			$('.btn-select').attr('value', value);
+			$('.btn-select').css("border-bottom", "2px solid #c5b358");
+			$(".b").toggle();
+			//console.log(value);
+		});
+
+		$(".btn-select").click(function () {
+			$(".b").toggle();
+		});
+
+		$('body').click(function (event) {
+			if (!$(event.target).closest('.btn-select').length && !$(event.target).is('.btn-select')) {
+				$(".b").hide();
+			}
+		});
+
+		///////////////////////////////////////////////////////////////////////////////////////////
+		var langArray = [];
+		$('.vodiapicker1 option').each(function () {
+			var img = $(this).attr("data-thumbnail");
+			var text = this.innerText;
+			var value = $(this).val();
+			var item = '<li><img src="' + img + '" alt="" value="' + value + '"/><span>' + text + '</span></li>';
+			langArray.push(item);
+		})
+
+		$('#aa').html(langArray);
+
+		//Set the button value to the first el of the array
+		$('.btn-select1').html(langArray[0]);
+		$('.btn-select1').attr('value', 'fedex');
+
+		//change button stuff on click
+		$('#aa li').click(function () {
+			var img = $(this).find('img').attr("src");
+			var value = $(this).find('img').attr('value');
+			var text = this.innerText;
+			var item = '<li><img src="' + img + '" alt="" /><span>' + text + '</span></li>';
+			$('.btn-select1').html(item);
+			$('.btn-select1').attr('value', value);
+			$('.btn-select1').css("border-bottom", "2px solid #c5b358");
+			$(".bb").toggle();
+			//console.log(value);
+		});
+
+		$(".btn-select1").click(function () {
+			$(".bb").toggle();
+		});
+
+		$('body').click(function (event) {
+			if (!$(event.target).closest('.btn-select1').length && !$(event.target).is('.btn-select1')) {
+				$(".bb").hide();
+			}
+		});
+
+
+		///////////////////////////////////////////////////////////////////////////////////////////
+		var langArray = [];
+		$('.vodiapicker2 option').each(function () {
+			var img = $(this).attr("data-thumbnail");
+			var text = this.innerText;
+			var value = $(this).val();
+			var item = '<li><img src="' + img + '" alt="" value="' + value + '"/><span>' + text + '</span></li>';
+			langArray.push(item);
+		})
+
+		$('#aaa').html(langArray);
+
+		//Set the button value to the first el of the array
+		$('.btn-select2').html(langArray[0]);
+		$('.btn-select2').attr('value', 'fedex');
+
+		//change button stuff on click
+		$('#aaa li').click(function () {
+			var img = $(this).find('img').attr("src");
+			var value = $(this).find('img').attr('value');
+			var text = this.innerText;
+			var item = '<li><img src="' + img + '" alt="" /><span>' + text + '</span></li>';
+			$('.btn-select2').html(item);
+			$('.btn-select2').attr('value', value);
+			$('.btn-select2').css("border-bottom", "2px solid #c5b358");
+			$(".bb").toggle();
+			//console.log(value);
+		});
+
+		$(".btn-select2").click(function () {
+			$(".bbb").toggle();
+		});
+
+		$('body').click(function (event) {
+			if (!$(event.target).closest('.btn-select2').length && !$(event.target).is('.btn-select2')) {
+				$(".bbb").hide();
+			}
+		});
+
+		///////////////////////////////////////////////////////////////////////////////////////////
+		var langArray = [];
+		$('.vodiapicker3 option').each(function () {
+			var img = $(this).attr("data-thumbnail");
+			var text = this.innerText;
+			var value = $(this).val();
+			var item = '<li><img src="' + img + '" alt="" value="' + value + '"/><span>' + text + '</span></li>';
+			langArray.push(item);
+		})
+
+		$('#aaaa').html(langArray);
+
+		//Set the button value to the first el of the array
+		$('.btn-select3').html(langArray[0]);
+		$('.btn-select3').attr('value', 'fedex');
+
+		//change button stuff on click
+		$('#aaaa li').click(function () {
+			var img = $(this).find('img').attr("src");
+			var value = $(this).find('img').attr('value');
+			var text = this.innerText;
+			var item = '<li><img src="' + img + '" alt="" /><span>' + text + '</span></li>';
+			$('.btn-select3').html(item);
+			$('.btn-select3').attr('value', value);
+			$('.btn-select3').css("border-bottom", "2px solid #c5b358");
+			$(".bbbb").toggle();
+			//console.log(value);
+		});
+
+		$(".btn-select3").click(function () {
+			$(".bbbb").toggle();
+		});
+
+		$('body').click(function (event) {
+			if (!$(event.target).closest('.btn-select3').length && !$(event.target).is('.btn-select3')) {
+				$(".bbbb").hide();
+			}
+		});
+	</script>
+</body>
+
+</html>

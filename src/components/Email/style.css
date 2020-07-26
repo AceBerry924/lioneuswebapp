@@ -1,0 +1,99 @@
+.ub_form {
+  max-width: 490px;
+  margin: auto;
+  border: 1px solid #dadce0;
+  padding: 30px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+section.main {
+  padding: 40px 0 80px 0;
+}
+
+.form-si-header {
+  margin-bottom: 30px;
+}
+
+.form-si-header img {
+  width: 100%;
+  max-width: 120px;
+  display: block;
+  margin: auto;
+}
+
+.form-si-header h3 {
+  margin: 0;
+  text-align: center;
+  font-size: 27px;
+}
+
+.lio-btn {
+  padding: 4px 15px;
+  font-size: 19px;
+  font-weight: 400;
+  border: 1px solid transparent;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none !important;
+  border-radius: 0.25rem;
+  transition: color 0.15s;
+  cursor: pointer;
+}
+
+a:not([href]):not([tabindex]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.lio-tertiary {
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.lio-tertiary:hover {
+  color: #212529;
+  background-color: #e2e6ea;
+  border-color: #dae0e5;
+  box-shadow: 0px 4px 4px rgba(227, 227, 227, 0.62);
+}
+
+.ub_form_buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lio-primary {
+  background: rgb(197, 179, 88);
+  border-color: rgb(197, 179, 88);
+  color: white !important;
+  outline: none;
+}
+
+.lio-primary:hover {
+  box-shadow: 0px 4px 4px rgba(197, 179, 88, 0.4);
+}
+
+.form-si-description p {
+  font-size: 16px;
+  padding-bottom: 2rem;
+  color: #000000;
+}
+
+.form-footer {
+  text-align: center;
+  max-width: 490px;
+  margin: auto;
+  font-size: 13px;
+}
+
+.form-footer span {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.form-footer a {
+  text-decoration: underline;
+  /* font-size: 16px; */
+}

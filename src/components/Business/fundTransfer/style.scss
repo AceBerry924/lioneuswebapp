@@ -1,0 +1,180 @@
+$black:#1E1E1E;
+$grey: 	#f7f8f8;
+$white:#FFFFFF;
+.form-si-header {
+    margin-bottom: 0px; 
+}
+.egfomR #lg_step_count_1, .egfomR #lg_step_count_2, .egfomR #lg_step_count_3, .egfomR #lg_step_count_4{
+    @media screen and (max-width: 576px) {
+    margin-left : 0px;
+    }
+}
+.checkout_steps{
+    margin-top: 10%;
+    @media screen and (max-width: 576px) {
+        margin-top: 20%;
+    }
+}
+.transfer {
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+   justify-content:center;
+   height:20vh;
+   font-size: 15px;
+   max-width: 490px;
+    margin-bottom : 5px;
+//    margin-top: 2%;
+//    background-color:#F5F5F5;
+   span.switcher {
+      position: relative;
+      
+      width:200px;
+      height:50px;
+      border-radius:10px;
+      margin:20px 0;
+      input {
+         appearance: none;
+         
+         position: relative;
+
+         width:200px;
+         height:50px;
+         border-radius:10px;
+
+         background-color:$black;
+         outline:none;
+
+         font-family: 'Oswald', sans-serif;
+         &:before, &:after {
+            z-index:2;
+
+            position: absolute;
+            top:50%;
+            transform:translateY(-50%);
+
+            color:$white;
+         }
+         &:before {
+            content: 'Canadian';
+            left:18px;
+         }
+         &:after {
+            content: 'US';
+            right: 30px;         }
+      }
+      label {
+         z-index:1;
+         position: absolute;
+         top:5px;
+         bottom:5px;
+         margin-bottom: 0rem;
+         border-radius:10px;
+      }
+      &.switcher-1 {
+         input {
+            transition:.25s -.1s;
+            &:checked {
+               background-color:$grey;
+               &:before {
+                  color:$black;
+                  transition: color .5s .2s;
+                  font-weight: 700;
+                //   box-shadow: 10px 0px 15px rgba(0, 0, 0, 0.1);
+
+               }
+               &:after {
+                  color:$black;
+                  transition: color .5s;
+                  padding: 10px;
+                  font-weight: 700;
+                //   box-shadow: -10px 0px 15px rgba(0, 0, 0, 0.1);
+                }
+               &+label {
+                  left:5px;
+                  right:100px;
+                  background:$white;
+                  box-shadow: 5px 0px 15px rgba(0, 0, 0, 0.1);
+                  transition: left .5s, right .4s .2s;
+               }
+            }
+            &:not(:checked) {
+               background:$grey;
+               transition: background .5s -.1s;
+               &:before {
+                  color:$black;
+                  transition: color .5s;
+                  padding: 10px;
+                  font-weight: 700;
+                //   background-color: #DCDCDC;
+               }
+               &:after {
+                  color:$black;
+                  transition: color .5s .2s;  
+                  font-weight: 700;             }
+               &+label {
+                  left:120px;
+                  right:5px;
+                  box-shadow: -5px 0px 15px rgba(0, 0, 0, 0.1);
+                  background:$white;                
+                  transition: left .4s .2s, right .5s, background .35s -.1s;
+               }
+            }
+         }
+      }
+      &.switcher-2 {
+         overflow:hidden;
+         input {
+               
+            transition:background-color 0s .5s;
+            &:before {
+               color:$black;
+            }
+            &:after {
+               color:$white;
+            }
+            &:checked {
+               background-color:$white;
+               &+label {
+                  background:$white;
+                  
+                  animation: turn-on .5s ease-out;
+                  
+                  @keyframes turn-on {
+                     0% {
+                        left:100%;
+                     }
+                     100% {
+                        left:0%;
+                     }
+                  }
+               }
+            }
+            &:not(:checked) {
+                
+               background:$black;
+               &+label {
+                  background:$black;
+                  animation: turn-off .5s ease-out;
+                  
+                  @keyframes turn-off {
+                     0% {
+                        right:100%;
+                     }
+                     100% {
+                        right:0%;
+                     }
+                  }
+               }
+            }
+         }
+         label {
+            top:0px;
+            
+            width:200px;
+            height:50px;
+            border-radius:10px;
+         }
+      }
+   }
+}

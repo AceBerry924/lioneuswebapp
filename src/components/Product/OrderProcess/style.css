@@ -1,0 +1,98 @@
+.ui-selectmenu-button.ui-button {
+  width: 100% !important;
+  background-color: white;
+  height: calc(30px + 0.75rem + 2px);
+  box-shadow: unset !important;
+  line-height: 1.5;
+  padding: 0.375rem 0.75rem;
+}
+.jRfYbG .wrap_input .form-control {
+  height: calc(36px + 0.75rem + 2px);
+}
+.ui-selectmenu-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #495057;
+}
+.ui-selectmenu-icon.ui-icon {
+  margin-top: 5px;
+  line-height: 1.5;
+}
+.ui-menu-icons .ui-menu-item-wrapper {
+  padding-left: 3em;
+}
+.custom-ul {
+  margin-bottom: 15px;
+}
+.MJELm {
+  margin-bottom: 15px;
+}
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus,
+.ui-button:hover,
+.ui-button:focus {
+  background-color: white;
+}
+.ui-selectmenu-text {
+  font-size: 16px;
+  z-index: 1;
+  color: #b3b3b3;
+  font-weight: normal;
+  transition: all 0.28s ease;
+  position: absolute;
+  top: 8px;
+  left: 0;
+  /* background-color: white; */
+  margin: 0 10px;
+  padding: 0 10px;
+}
+.fXeTYE {
+  margin-bottom: 15px;
+}
+.ui-selectmenu-icon.ui-icon {
+  top: 5px;
+}
+.cRsnoR select option,
+.cRsnoR select {
+  color: #b3b3b3 !important;
+}
+.ui-selectmenu-button.ui-button {
+  height: calc(36px + 0.75rem + 2px);
+}
+.cRsnoR .form-control {
+  height: calc(36px + 0.75rem + 2px);
+}
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+  border: 1px solid #cccccc;
+  background: white;
+  font-weight: normal;
+  color: #b3b3b3;
+}
+
+.country-select, .country-select > .flag-select__options {
+  width: 100%;
+  left: 0;
+}
+.country-select {
+  width: 100%;
+}
+.country-select > .flag-select__btn {
+  outline: none;
+}
+
+.country-select > .flag-select__btn > .flag-select__option > .flag-select__option__icon {
+  top: 0;
+}
+
+.country-select > .flag-select__options > .flag-select__option > span > .flag-select__option__icon {
+  top: 0;
+}

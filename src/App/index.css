@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "Calibri";
+  src: url("../components/common/assets/fonts/OnlineWebFonts_COM_801763182bacbdf83a64c394382b7577/@font-face/a78cfad3beb089a6ce86d4e280fa270b.eot");
+  /* IE9*/
+  src: url("../components/common/assets/fonts/OnlineWebFonts_COM_801763182bacbdf83a64c394382b7577/@font-face/a78cfad3beb089a6ce86d4e280fa270b.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */
+    url("../components/common/assets/fonts/OnlineWebFonts_COM_801763182bacbdf83a64c394382b7577/@font-face/a78cfad3beb089a6ce86d4e280fa270b.woff2") format("woff2"),
+    /* chrome、firefox */
+    url("../components/common/assets/fonts/OnlineWebFonts_COM_801763182bacbdf83a64c394382b7577/@font-face/a78cfad3beb089a6ce86d4e280fa270b.woff") format("woff"),
+    /* chrome、firefox */
+    url("../components/common/assets/fonts/OnlineWebFonts_COM_801763182bacbdf83a64c394382b7577/@font-face/a78cfad3beb089a6ce86d4e280fa270b.ttf") format("truetype"),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../components/common/assets/fonts/OnlineWebFonts_COM_801763182bacbdf83a64c394382b7577/@font-face/a78cfad3beb089a6ce86d4e280fa270b.svg#Calibri") format("svg");
+  /* iOS 4.1- */
+}
+
+body::-webkit-scrollbar {
+  width: 0.5em !important;
+  scroll-behavior: smooth !important;
+}
+button{
+  outline: none;
+}
+@-moz-document url-prefix() {
+  body {
+    overflow: auto;
+    scroll-behavior: smooth !important;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
+    outline: 1px solid slategrey !important;
+    border-radius: 10px !important;
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #d3d3d3;
+  outline: 1px solid #d3d3d3;
+  border-radius: 10px !important;
+}
+
+/* .cUcwcA{
+  flex: 1;
+} */
+:root {
+  background-color: white;
+}
+
+html {
+  height: 100%;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Calibri";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  font-family: "Calibri";
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+span {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+@media screen and (max-width: 576px) {
+  p {
+    font-size: 16px;
+  }
+
+  a {
+    font-size: 19px;
+  }
+}
+
+.PhoneInputCountry {
+  display: none !important;
+}
+.input-phone-number input{
+  border: 1px solid #ced4da !important;
+}
+.input-phone-number input:focus{
+  border: 1px solid #c5b358 !important;
+}
