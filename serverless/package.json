@@ -14,7 +14,7 @@
   "dependencies": {
     "@sentry/node": "^5.10.2",
     "aws-sdk": "^2.381.0",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "jsonwebtoken": "^8.5.1",
     "jwk-to-pem": "^2.0.2",
     "stripe": "^7.15.0",
