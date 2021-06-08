@@ -14,7 +14,7 @@
     "apollo-link-http": "^1.5.15",
     "aws-amplify": "^2.2.0",
     "aws-appsync": "^3.0.2",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel-eslint": "10.0.1",
     "country-region-dropdown-menu": "^2.1.6",
     "cropperjs": "^1.5.6",
